@@ -1,4 +1,4 @@
-####**Test Project for testing API's Using RestAssured and TestNG**
+###**Test Project for testing API's Using RestAssured and TestNG**
 
 **Requirements**:
  1. Java 7 or higher
