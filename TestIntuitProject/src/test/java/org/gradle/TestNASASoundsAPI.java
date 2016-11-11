@@ -38,7 +38,6 @@ public class TestNASASoundsAPI {
 		_jp = new JsonPath(_response);
 		Assert.assertEquals(_jp.get("count"), lValue);
 		Assert.assertNotNull(_response);
-
 	}
 
 	/**
@@ -53,6 +52,5 @@ public class TestNASASoundsAPI {
 				.getBody().asString();
 		_jp = new JsonPath(_response);
 		Assert.assertEquals(_jp.get("error.message"), "No api_key was supplied. Get one at https://api.nasa.gov");
-
 	}
 }
